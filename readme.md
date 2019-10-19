@@ -5,23 +5,7 @@ A python implementation of laravel framework for machine learning, AI, datascien
 * **MVC** Framework
 * **Routing**
 * **jinja 2** templating engine.
+* **Orator ORM** An active record orm for python
 
 # Installation
-Download project directly from github repository. Clone it and remove the origin (Optional).
-```
-git clone  git@github.com:bedus-creation/LaraPy.git project_name
-cd project_name
-git remote remove origin
-```
-
-### Serve app
-```
-python serve
-```
-### Testing
-```
-python -m pytest
-
-# With out Network 
-python -m pytest -m "not network" 
-```
+[Here is the documents for Installation](https://github.com/LaravelPython/docs/blob/master/installation.md)
