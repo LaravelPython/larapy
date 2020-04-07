@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pytest = "*"
 jinja2 = "*"
 requests = "*"
 gunicorn = "*"
@@ -12,15 +11,14 @@ setuptools = "*"
 sqlalchemy = "*"
 werkzeug = "*"
 webob = "*"
-chamak = "==0.0.6"
+chamak = "*"
+python-dotenv = "*"
 
 [dev-packages]
-black = "*"
-autopep8 = "*"
-twine = "*"
+pytest = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "*"
 
 [pipenv]
 allow_prereleases = true
