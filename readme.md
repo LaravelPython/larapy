@@ -1,4 +1,4 @@
-# LaraPy
+# Larapy
 A python implementation of laravel framework for machine learning, AI, datascience and data intensive work.
 
 ### Features
